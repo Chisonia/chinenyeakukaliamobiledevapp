@@ -13,10 +13,13 @@
         android:theme="@style/Theme.Chinenyeakukalia"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".ResetActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgortPasswordActivity"
+            android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".CreateAccountActivity2"

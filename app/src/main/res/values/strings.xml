@@ -20,4 +20,24 @@
     <string name="reset_password">RESET PASSWORD</string>
     <string name="email_address">Email Address</string>
     <string name="Email_address">Email Address</string>
+    <string name="Enter_email_id">Enter Email ID</string>
+    <string name="Enter_email_address">Enter Email Address</string>
+    <string name="join_now">JOIN NOW</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="grow_together">Grow Together</string>
+    <string name="todo">TODO</string>
+    <string name="Todo">TODO</string>
+    <string name="Reset_password">RESET PASSWORD</string>
+    <string name="remember_password_now_ngo_back">Remember Password Now? \nGo Back</string>
+    <string name="already_have_an_account_login">Already Have An Account? Login</string>
+    <string name="Sign_up">SIGN UP</string>
+    <string name="Pics">TODO</string>
+    <string name="enter_your_reset_and_your_new_password">Enter your reset and your new password</string>
+    <string name="Re_password">Reset Password</string>
+    <string name="Go_back">Go Back</string>
+    <string name="Enter_cod">Enter Code</string>
+    <string name="new_password">New Password</string>
+    <string name="reset_passwd">RESET PASSWORD</string>
+    <string name="retype_new_password">Retype New Password</string>
+    <string name="Enter_your_email_to_reset_your_password">Enter your email to reset your password</string>
 </resources>
