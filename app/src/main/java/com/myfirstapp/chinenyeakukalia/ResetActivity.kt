@@ -16,7 +16,7 @@ class ResetActivity : AppCompatActivity() {
 
             startActivity(i)
         }
-        val backButton: Button = findViewById(R.id.GoBack)
+        val backButton: Button = findViewById(R.id.back)
         backButton.setOnClickListener {
 
             val i = Intent(this, LoginActivity::class.java)
