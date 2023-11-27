@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/parentReset"
     android:background="@drawable/circlee_ng">
 
 
@@ -14,12 +15,10 @@
         android:text="Reset Password"
         android:textSize="24sp"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="600dp"
         android:textStyle="bold"
         android:textColor="#000"
         android:layout_marginHorizontal="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -95,29 +94,26 @@
         android:id="@+id/resetPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#000"
         android:text="Reset Password"
         android:textColor="#ffffff"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/retypePass" />
 
     <TextView
         android:id="@+id/remPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="35dp"
         android:layout_marginBottom="50dp"
         android:layout_marginEnd="60dp"
         android:text="Remember Password Now?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resetPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/back"/>
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
         android:id="@+id/back"
@@ -125,17 +121,13 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/transparent"
         android:text="Go Back"
-        android:textColor="#504949"
+        android:textColor="#9E24B3"
         android:textSize="12sp"
         android:textStyle="bold"
-        android:layout_marginBottom="50dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginStart="200dp"
-        android:layout_marginEnd="30dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="90dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resetPassword"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toEndOf="@id/remPass"
+        app:layout_constraintTop_toBottomOf="@+id/resetPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/parentLogin"
     android:background="@drawable/union_ng"
     android:padding="16dp"
     tools:context=".LoginActivity">
@@ -14,12 +15,10 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="600dp"
         android:text="Welcome Back"
         android:textColor="#050505"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,17 +26,15 @@
         android:id="@+id/enterusername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginBottom="500dp"
-        android:text="@string/enter_your_username_amp_password"
+        android:text="Enter Your Username &amp; Password"
         android:textColor="#504949"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeBack" />
+       app:layout_constraintTop_toBottomOf="@id/welcomeBack"/>
 
     <EditText
         android:id="@+id/editusername"
